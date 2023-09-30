@@ -22,3 +22,16 @@
     --fontinter: font-family: 'Inter', sans-serif;
 
 }
+
+.container-grid {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1400px;
+
+}
+
+html {
+    /* quando clica no link com a ID ele desce mais suave */
+    scroll-behavior: smooth;
+
+}
