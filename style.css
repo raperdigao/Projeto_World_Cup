@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'font-paragrafo-bold';
+    src: url(assets/fontes/inter/static/Inter-Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-grid {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1920px;
+    border: 2px solid black;
+    height: 100px;
+}
+header{
+    background-color: #ffffff;
+    height: 100px;
+}
+.header-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.links-header ul li{
+    list-style-type: none; 
+    text-decoration: none;
+}
+.links-header .nav-links a {
+    text-decoration: none;      
+    color: black;
+    font-size: 20px;
+    letter-spacing: 1px;     
+
+}
+.links-header .nav-links a:hover{ 
+    color: black;
+    transition: 0.2s; 
+}
+.nav-links{  
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 554px;
+    
+}
+.logo-header{
+    margin-left: 98px;
+}
