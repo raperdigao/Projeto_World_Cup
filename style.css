@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+footer {
+    background: #8d1b3d;
+}
+.footer-flex {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    font-family: inter;
+    justify-content: space-around;
+    height: 320px;
+    width: 100%;
+}
+
+/* Definir estilo do itens */
+article h1,
+h4 {
+    color: white;
+    font-size: 22px;
+}
+
+.box-01 ul {
+    list-style: none;
+    height: 100px;
+    display: flex;
+    font-family: inter;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.box-01 li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.box-01 li a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.box-02 ul {
+    list-style: none;
+    height: 100px;
+    font-family: inter;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.box-02 li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.box-02 li a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.box-03 ul {
+ list-style: none;
+    height: 100px;
+    font-family: inter;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.box-03 li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.box-03 li a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+
