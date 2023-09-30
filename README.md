@@ -25,4 +25,6 @@ Equipe</p>
 <li>07/10 - Apresentação para a sala</li>
 </ul>
 
+<p align="center">
 <img src="https://i.pinimg.com/564x/00/63/15/00631561f4895a630508c2b0d0bdb4d1.jpg" width="150px">
+</p>
