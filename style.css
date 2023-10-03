@@ -37,12 +37,110 @@ html {
 }
 
 .banner {
-    background: 
+    /* background: 
     linear-gradient(rgba(141,27,61,1), rgba(0,0,0,0.0)),
-    url(assets/img/wallpaper.png);
-        background-repeat: no-repeat;
+    url(assets/img/wallpaper.png); */
+    background-image: url(assets/img/wallpaper.png);
+
+    background-repeat: no-repeat;
     background-size: cover;
-    width: 1920px;
-    height: 600px;
+    height: 601px;
     position: relative;
+
+
 }
+
+.banner-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8D1B3D;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+
+}
+
+.centro-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-grupos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titulo-grupos h1 {
+    font-family: var(--fontinter);
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+
+}
+/* Estilizando os card em wrap para ficar responsivel */
+.cards-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    margin-top: 30px;
+   
+
+
+}
+
+.card{
+    display: flex;
+   
+}
+/* Estilzando o tamanho das caixa, cor de fundo e bordar arredondada 
+Nesta classe o itens dica em columa*/
+.info-card {
+
+    display: flex;
+    flex-direction: column;
+    width: 384px;
+   height: 428px;
+   background-color: #F4F4F4;
+   border-radius: 8px;
+   
+ }
+ .titulo-card h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+
+ }
+ /* Nesta classe os itens do container ficam em linha */
+ .card-flex{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+
+}
+
+/* Estilizando o tamanho das imagens */
+.info-card img{
+    width: 60px;
+    height: 45px;
+    position: relative;
+
+}
+/* Nesta classe estilizei o nome dos times  */
+.info-card h1{
+    padding-left: 40px;
+    font-family: var(--fontinter);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
