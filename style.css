@@ -82,6 +82,7 @@ html {
     margin-top: 15px;
 
 }
+
 /* Estilizando os card em wrap para ficar responsivel */
 .cards-flex {
     display: flex;
@@ -91,15 +92,16 @@ html {
     width: 100%;
     gap: 10px;
     margin-top: 30px;
-   
+
 
 
 }
 
-.card{
+.card {
     display: flex;
-   
+
 }
+
 /* Estilzando o tamanho das caixa, cor de fundo e bordar arredondada 
 Nesta classe o itens dica em columa*/
 .info-card {
@@ -107,20 +109,22 @@ Nesta classe o itens dica em columa*/
     display: flex;
     flex-direction: column;
     width: 384px;
-   height: 428px;
-   background-color: #F4F4F4;
-   border-radius: 8px;
-   
- }
- .titulo-card h1{
+    height: 428px;
+    background-color: #F4F4F4;
+    border-radius: 8px;
+
+}
+
+.titulo-card h1 {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 5px;
 
- }
- /* Nesta classe os itens do container ficam em linha */
- .card-flex{
+}
+
+/* Nesta classe os itens do container ficam em linha */
+.card-flex {
     display: flex;
     flex-direction: row;
     padding: 30px;
@@ -128,14 +132,15 @@ Nesta classe o itens dica em columa*/
 }
 
 /* Estilizando o tamanho das imagens */
-.info-card img{
+.info-card img {
     width: 60px;
     height: 45px;
     position: relative;
 
 }
+
 /* Nesta classe estilizei o nome dos times  */
-.info-card h1{
+.info-card h1 {
     padding-left: 40px;
     font-family: var(--fontinter);
     font-size: 20px;
@@ -143,4 +148,385 @@ Nesta classe o itens dica em columa*/
     letter-spacing: 2px;
 }
 
+/* Nesta parte irei estilizar as setas direção direita e esquerda e titulo proximos jogos */
+.proxjogos-flex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 
+}
+
+.titulo-proxjogos {
+    margin-top: 30px;
+    font-family: var(--fontinter);
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+/* Nesta etapa irei estilizar os times  */
+
+
+
+
+.times-flex {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+
+.jogos {
+
+
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    padding: 6px;
+    background-color: #F4F4F4;
+    border-radius: 8px;
+    position: relative;
+
+
+}
+
+.times {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+
+
+.data-horario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 100px;
+    margin-bottom: 220px;
+    color: #8D1B3D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+
+}
+
+
+.times h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: var(--fontinter);
+
+
+
+}
+
+.times img {
+    width: 107px;
+    height: 80px;
+}
+
+.times h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: var(--fontinter);
+
+
+}
+
+/* NESTA PARTE IREI ESTILIZAR A PARTE DE VER TODOS OS JOGOS */
+
+.todosjogos-flex {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+.todosjogos {
+    width: 400px;
+    height: 54px;
+    display: flex;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: #FFF2F6;
+
+
+
+}
+
+.todosjogos h1 {
+    color: #8D1B3D;
+    text-align: center;
+    font-family: var(--fontinter);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/* NESTA ETAPA IREI ESTILIZAR A PARTE DOS JOGOS LINK ASSISTIR */
+/* Estilizar titulo ao vivo */
+
+.aovivo-flex {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.centro-titulo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+
+    padding: 6px;
+
+
+}
+
+.centro-titulo img {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 6px;
+
+
+
+}
+
+.centro-titulo h1 {
+    font-family: var(--fontinter);
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+
+/* Estilizar banner e aperte o play */
+
+
+.banner-tela-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-aperteoplay {
+    background-image: url(assets/img/copa_do_mundo_2022.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    width: 90vw;
+    height: 50vw;
+    border-radius: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.aperteoplay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6dvh;
+    width: 30vw;
+
+
+}
+
+.aperteoplay img {
+    display: flex;
+
+    width: 80px;
+    height: 60px;
+
+}
+
+/* Nesta etapa irei estilizar os comentários */
+
+.comentarios-flex {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.comentarios h1 {
+    color: #1F1E1E;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+
+
+}
+
+.comentarios h2 {
+    margin-top: 20px;
+    color: #3C3939;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+.comentarios span {
+    color: #8D1B3D;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+/* Nesta etapa estarei estilizando o nome dos comentários */
+
+.nomedoscomentarios {
+    margin-top: 30px;
+    display: flex;
+    border: 1px solid #D7D7D7;
+    padding-bottom: 6px;
+}
+
+.nomedoscomentarios h1 {
+    margin-left: 20px;
+    color: #1F1E1E;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+
+}
+
+.mensagem {
+    border: 1px solid #D7D7D7;
+
+}
+
+.mensagem p {
+    color: #1F1E1E;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 125% */
+}
+
+.mensagem h2 {
+    margin-top: 10px;
+    color: #8D1B3D;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+
+}
+
+.assistir-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.assistir-flex {
+    color: #1F1E1E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+/*
+
+Estilizar partidas dos jogos
+.jogosaovivo-flex {
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid black;
+
+
+
+}
+
+.jogos-aovivo {
+    display: flex;
+    flex-direction: row;
+}
+
+.time01 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+
+}
+
+.time02 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+
+} 
