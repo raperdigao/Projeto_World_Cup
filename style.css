@@ -36,6 +36,92 @@ html {
 
 }
 
+
+/* Nesta etapa irei desenvolver o Header */
+
+.header-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    width: 100%;
+
+    background: #F4F4F4;
+    height: 100px;
+
+
+}
+
+.logo-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    margin-right: 25px;
+
+
+
+
+}
+
+
+.links-header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 77vw;
+
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    height: 100px;
+
+    width: 77vw;
+
+
+
+
+}
+
+
+.links-header ul li {
+    list-style-type: none;
+    text-decoration: none;
+    color: #3C3939;
+    font-family: var(--fontinter);
+    font-size: 10px;
+    font-weight: 500;
+
+
+
+}
+
+.links-header .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 1px;
+
+}
+
+.links-header .nav-links a:hover {
+    color: black;
+    transition: 0.2s;
+}
+
+
+
+
+/* Nesta etapa irei desenvolver o banner do site */
 .banner {
     /* background: 
     linear-gradient(rgba(141,27,61,1), rgba(0,0,0,0.0)),
@@ -295,6 +381,7 @@ Nesta classe o itens dica em columa*/
 /* Estilizar titulo ao vivo */
 
 .aovivo-flex {
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
 
@@ -494,8 +581,122 @@ Nesta classe o itens dica em columa*/
 
 
 
+/* <!-- Nesta etapa estarei desenvolvendo o footer do site --> */
+
+.footer-flex {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: inter;
+    justify-content: space-evenly;
+    height: 320px;
+    width: 100%;
+    background: #8d1b3d;
+    color: white;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-flex {
+
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .footer-flex {
+
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+        width: 100%;
+        flex-direction: column;
+    }
+}
 
 
+.box-01 ul {
+    margin-top: 10px;
+    list-style: none;
+    height: 100px;
+    display: flex;
+    font-family: inter;
+    font-size: 15px;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.box-01 li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.box-01 li a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.box-02 ul {
+    margin-top: 10px;
+    list-style: none;
+    height: 100px;
+    display: flex;
+    font-family: inter;
+    font-size: 15px;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.box-02 li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.box-02 li a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.box-03 ul {
+    margin-top: 10px;
+    list-style: none;
+    height: 100px;
+    display: flex;
+    font-family: inter;
+    font-size: 15px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.box-03 li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.box-03 li a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.box-04 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
 
 /*
 
